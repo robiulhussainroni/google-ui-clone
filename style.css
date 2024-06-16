@@ -220,3 +220,32 @@ main {
   display: flex;
   gap: 2.4rem;
 }
+
+/* Responsive Design */
+
+/* Tablet */
+@media (max-width: 41.625em) {
+  .search {
+    width: 60%;
+  }
+
+  .bottom-row {
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1.2rem;
+  }
+  .right-flex {
+    align-self: flex-end;
+  }
+}
+
+/* Mobile */
+@media (max-width: 29.3125em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .footer {
+    font-size: 1.4rem;
+  }
+}
